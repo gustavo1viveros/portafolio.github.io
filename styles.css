@@ -1,0 +1,214 @@
+/* Reset de estilos */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Color de fondo más claro */
+    background-image: url('fondo.jpg'); /* Cambia 'background.jpg' por tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #343a40; /* Color de texto predeterminado */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+header {
+    background-color: #343a40; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: fadeInDown 1s ease-in-out;
+}
+
+header h1 {
+    font-size: 1.2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navegación */
+nav {
+    background-color: #495057; /* Fondo oscuro */
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #007BFF; /* Cambio de color al pasar el ratón */
+}
+
+/* Sección principal */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease-in-out;
+}
+
+section h2 {
+    color: #343a40; /* Texto más oscuro */
+}
+
+/* Enlace de llamada a la acción */
+.cta-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007BFF; /* Color azul brillante */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el ratón */
+    transform: scale(1.05);
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #343a40; /* Fondo oscuro */
+    color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Enlace del pie de página */
+footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Estilos adicionales para enlaces */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* ... Otros estilos ... */
+
+/* Sección de Contacto */
+#contact {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease-in-out;
+}
+
+#contact h2 {
+    color: #343a40; /* Texto más oscuro */
+}
+
+/* Lista de Contacto */
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 15px;
+}
+
+.contact-list a {
+    color: #007BFF; /* Color azul brillante */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact-list a:hover {
+    color: #0056b3; /* Cambio de color al pasar el ratón */
+}
+
+/* ... Otros estilos ... */
+/* Estilos para el logo y texto en el encabezado */
+/* Estilos para el logo y texto en el encabezado */
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px; /* Ajusta el ancho de tu logo según tus necesidades */
+    height: auto; /* Mantiene la proporción del logo */
+    margin-right: 20px; /* Ajusta el espacio entre el logo y el texto según tus necesidades */
+}
+
+h1, p {
+    margin: 0;
+}
